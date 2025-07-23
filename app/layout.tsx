@@ -24,9 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}> 루트 레이아웃/
         {children}
       </body>
     </html>
+    // 루트 레이아웃은 html, body태그가 필수이다. 
   );
 }
