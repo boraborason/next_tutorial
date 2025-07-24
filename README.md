@@ -1,1 +1,27 @@
-Next.js App router 기반 Chat GPT 만들기
+#**Next.js App router 기반 Chat GPT 만들기**
+
+다이나믹 라우트
+- url에 동적인 값을 받아야 하는 페이지들이 있음
+- 정확한 세그먼트의 이름을 정의할 수 없음
+- 그때 쓰는것이 다이나믹 라우트
+
+라우트 그룹
+- 라우트를 그룹화할 수 있는 폴더
+- 주로 같은 css를 먹일 때 사용
+
+라우트 핸들러
+- Next.js에서 **API 엔드포인트를 처리하는 함수**
+- **HTTP 요청**(GET, POST, PUT, DELETE)을 **처리하는 함수**
+
+fetch의 핵심
+정의: "다른 곳에서 데이터를 가져와줘!"
+용도: API 호출, 파일 다운로드, 서버 통신
+특징: 비동기, Promise 기반, 간단한 문법
+
+## **🔍 Dynamic Routes 규칙**
+
+### **1. 대괄호 `[]` 사용 필수**
+
+### **2. 중첩 파라미터 가능**
+`[userId]/[postId]/route.ts → /api/users/123/posts/456`
+**`[대괄호]`는 Next.js의 특별한 문법**
