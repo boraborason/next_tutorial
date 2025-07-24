@@ -1,4 +1,5 @@
-#**Next.js App router 기반 Chat GPT 만들기**
+
+## **Next.js App router 기반 Chat GPT 만들기**
 
 다이나믹 라우트
 - url에 동적인 값을 받아야 하는 페이지들이 있음
@@ -18,10 +19,10 @@ fetch의 핵심
 용도: API 호출, 파일 다운로드, 서버 통신
 특징: 비동기, Promise 기반, 간단한 문법
 
-## **🔍 Dynamic Routes 규칙**
+##🔍 Dynamic Routes 규칙
 
 ### **1. 대괄호 `[]` 사용 필수**
 
 ### **2. 중첩 파라미터 가능**
 `[userId]/[postId]/route.ts → /api/users/123/posts/456`
-**`[대괄호]`는 Next.js의 특별한 문법**
+`[대괄호]`는 Next.js의 특별한 문법
