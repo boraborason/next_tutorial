@@ -19,7 +19,7 @@ fetch의 핵심
 용도: API 호출, 파일 다운로드, 서버 통신
 특징: 비동기, Promise 기반, 간단한 문법
 
-##🔍 Dynamic Routes 규칙
+## **🔍 Dynamic Routes 규칙**
 
 ### **1. 대괄호 `[]` 사용 필수**
 
