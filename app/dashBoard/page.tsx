@@ -3,7 +3,7 @@
 // fetch는 서버나 API에서 데이터를 가져오는 JavaScript 함수
 export default async function dashBoardPage() {
   //fetch에 경로 넣어주기 
-  const response = await fetch("http://localhost:3001/api/test");
+  const response = await fetch("http://localhost:3000/api/test");
   //응답확인 위해 data 넣어줌
   const data = await response.json();
 
