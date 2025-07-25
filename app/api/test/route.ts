@@ -1,9 +1,10 @@
+import { error } from "console";
 import { NextResponse } from "next/server";
 
 //지연시켜주는 함수 ( ms로 인자받기,지연시키고 응답하기 때문에 Promise로 반환)
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-
+//throw new Error();   --에러 페이지 실습을 위한 에러
 
 //get 요청 핸들러
 export async function GET(request: Request) {
