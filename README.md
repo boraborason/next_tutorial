@@ -1,5 +1,5 @@
 
-## **Next.js App router 기반 Chat GPT 만들기**
+## **Next.js 기본 실습**
 
 다이나믹 라우트
 - url에 동적인 값을 받아야 하는 페이지들이 있음
